@@ -19,6 +19,10 @@ body {
     transition: .3s ease;
 }
 
+:focus {
+    outline: unset;
+}
+
 
 html,
 body,
@@ -110,6 +114,8 @@ video {
     border: unset;
     background: unset;
     cursor: pointer;
+    text-decoration: none;
+    border-radius: 12px;
 }
 
 .btn:hover {
@@ -124,13 +130,25 @@ video {
     padding: 10px 24px;
 }
 
+.green-btn {
+    background: var(--green);
+    color: #fff;
+}
+
 .light-green-btn {
     background: var(--lightGreen);
 }
 
+.green-border-btn {
+    border: 1px solid var(--green);
+}
+
 .light-green-border {
     border: 1px solid var(--lightGreen);
-    color: #fff;
+}
+
+.blue-border {
+    border: 1px solid var(--lightBlue);
 }
 
 .container {
@@ -429,7 +447,7 @@ nav ul {
     justify-content: center;
     border-radius: 50%;
     margin-right: 50px;
-    margin-top: -202px;
+    margin-top: -252px;
     background: var(--realLightBlue);
 }
 
@@ -444,10 +462,10 @@ nav ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    margin: 0;
+    margin: 24px 0;
 }
 
-.registr a {
+.registr:not(.bolig-registr) a {
     font-weight: 500;
     font-size: 18px;
     line-height: 48px;
@@ -520,6 +538,10 @@ nav ul {
     justify-content: center;
     padding: 10px 40px;
     border-radius: 12px;
+}
+
+.kontingen__btns .btn:last-child {
+    color: #fff;
 }
 
 /* Kontingen */
@@ -837,7 +859,157 @@ nav ul {
     padding-top: 25px;
     padding-right: 45px;
     border: 1px solid #E6E6E6;
+    border-left: 0;
     border-radius: 0 18px 18px 0;
 }
 
+.product:hover .product__info {
+    border-color: var(--darkBlue);
+}
+
+.catalog__sort {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 125px;
+}
+
+.catalog__sort select {
+    padding: 10px;
+    padding-right: 100px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.catalog__sort h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
 /* Catalog */
+
+/* Bolig */
+
+.hero-bulig h1 {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.bolig-registr,
+.bolig-registr .registr__img {
+    background: #F1F1F1;
+}
+
+.bolig__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bolig__item {
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 677px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bolig__item:hover {
+    border-color: var(--lightBlue);
+    transform: translateY(-5px);
+}
+
+.bolig__item .img-wrap {
+    background: #F0F4FB;
+    border-radius: 50%;
+    width: 177px;
+    height: 177px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-wrap img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.bolig__item h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--lightBlue);
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+
+.bolig__item p {
+    font-size: 22px;
+    line-height: 28px;
+    max-width: 395px;
+}
+
+.registr-btns {
+    display: flex;
+}
+
+.registr-btns .btn {
+    padding: 10px 24px;
+    display: block;
+}
+
+.registr-btns .green-border-btn {
+    color: #333;
+    margin-left: 24px;
+}
+
+/* Bolig */
+
+/* Housing */
+
+.hero-housing {
+    margin-bottom: 145px;
+}
+
+.hero-housing .bolig__item {
+    max-width: 310px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.bolig__item {
+    max-width: 677px;
+}
+
+.hero-housing .bolig__item h3 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.hero-housing p {
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 195px;
+}
+
+.housing-livene .livene__info {
+    max-width: 550px;
+}
+
+.housing-livene .btn {
+    border: 2px solid var(--lightBlue);
+    font-weight: 700;
+    color: var(--lightBlue);
+}
+
+/* Housing */
