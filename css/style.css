@@ -799,11 +799,17 @@ nav ul {
 }
 
 .product {
+    color: #333;
+    max-width: 935px;
+    text-decoration: unset;
+    display: block;
+}
+
+.product .product__content {
     display: flex;
     justify-content: space-between;
     color: #333;
     max-width: 935px;
-    margin-bottom: 35px;
     text-decoration: unset;
 }
 
@@ -1420,14 +1426,15 @@ Single
 
 .steps__item.active .steps__circle {
     background: #C4C4C4;
-    width: 28px;
-    height: 28px;
-    border: 5px solid var(--darkBlue);
+    width: 22px;
+    height: 22px;
+    border: 8px solid var(--darkBlue);
 }
 
 .single__infos-item {
     border: 2px solid #E6E6E6;
     border-radius: 15px;
+    padding-top: 20px;
 }
 
 .single__infos {
@@ -1460,7 +1467,9 @@ Single
 }
 
 .key-info {
-    padding: 55px;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-bottom: 55px;
 }
 
 .key-info__table ul:first-child li {
@@ -1471,6 +1480,98 @@ Single
     margin-bottom: 20px;
     font-size: 20px;
     line-height: 23px;
+}
+
+.refusal-info {
+    padding-right: 85px;
+    padding-left: 85px;
+    padding-bottom: 55px;
+    margin-top: 40px;
+}
+
+.view {
+    padding-right: 110px;
+    padding-left: 110px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 99%;
+}
+
+.single__infos-item p {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.single__infos-item .green-border-btn {
+    color: var(--green);
+    padding: 15px;
+    font-size: 20px;
+    line-height: 23px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+.map {
+    text-align: center;
+    padding: 120px 0 170px;
+}
+
+.map img {
+    margin-top: 50px;
+    border-radius: 32px;
+}
+
+.related {
+    text-align: center;
+}
+
+.related .catalog__wrap {
+    margin-top: 110px;
+}
+
+.related .product {
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.product__variations-head {
+    padding: 15px 0;
+    background: var(--darkBlue);
+    color: #fff;
+    position: relative;
+}
+
+.product__variations-head svg {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}
+
+.product-withvars img {
+    border-radius: 18px 0 0 0;
+}
+
+.product-withvars .product__info {
+    border-radius: 0 18px 0 0;
+}
+
+.product-withvars:hover {
+    transform: unset;
+}
+
+.product__variation-items {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.product__variation-items.active {
+    max-height: 999999px;
+    overflow: unset;
 }
 
 /* *********************
