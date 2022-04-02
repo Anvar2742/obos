@@ -31,6 +31,6 @@ $(document).ready(function () {
 
 
     $('.product__variations-head').on('click', function (e) {
-        $(this).next().toggleClass('active')
+        $(this).toggleClass('active')
     })
 });
