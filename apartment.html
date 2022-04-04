@@ -9,6 +9,11 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.css">
+
     <link rel="stylesheet" href="./css/style.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -79,90 +84,107 @@
 
 
     <section class="single-hero apart-hero">
-        <img src="./img/example.png" alt="">
+        <div class="apart-hero_slider">
+            <div class="apart-item">
+                <div class="apart-img-holder">
+                    <img src="./img/example.png" alt="">
+                </div>
+            </div>
+            <div class="apart-item">
+                <div class="apart-img-holder">
+                    <img src="./img/example.png" alt="">
+                </div>
+            </div>
+            <div class="apart-item">
+                <div class="apart-img-holder">
+                    <img src="./img/example.png" alt="">
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="single-info apart-info">
         <div class="container">
+            <h2>Bolig 4006</h2>
+            <h3>Vollebekk, salgstrinn 1</h3>
+            <div class="apartment__btns">
+                <button class="btn green-btn">Kjøp denne leiligheten</button>
+                <button class="btn green-border-btn">Prospekt</button>
+            </div>
             <div class="single__infos">
                 <div class="single__col-1">
-                    <h2>Bolig 4006</h2>
-                    <h3>Vollebekk, salgstrinn 1</span>
-                        <div class="apartment__btns">
-                            <button class="btn green-btn">Kjøp denne leiligheten</button>
-                            <button class="btn green-border-btn">Prospekt</button>
+
+                    <div class="total-price-info">
+                        <h3>Totalpris</h3>
+                        <p class="price-apartment">Kr 4 069 270</p>
+                        <span class="price-apart-info">Totalprisen for boligen = innskudd + fellesgjeld samt
+                            omkostninger.</span>
+                        <div class="sign-blue">Fastpris – ingen forkjøpsrett</div>
+                        <div class="info-div">
+                            Bostart
                         </div>
-                        <div class="total-price-info">
-                            <h3>Totalpris</h3>
-                            <p class="price-apartment">Kr 4 069 270</p>
-                            <span class="price-apart-info">Totalprisen for boligen = innskudd + fellesgjeld samt
-                                omkostninger.</span>
-                            <div class="sign-blue">Fastpris – ingen forkjøpsrett</div>
-                            <div class="info-div">
-                                Bostart
-                            </div>
-                            <p class="price-apartment">Kr 4 069 270</p>
-                            <div class="info-div">
-                                Deleie
-                            </div>
-                            <p class="price-apartment">Kr 2 034 975</p>
+                        <p class="price-apartment">Kr 4 069 270</p>
+                        <div class="info-div">
+                            Deleie
                         </div>
-                        <ul class="apart-propert">
-                            <li>
-                                <strong>Prisantydning:</strong> kr 2 450 000
-                            </li>
-                            <li>
-                                <strong>Fellesgjeld:</strong> kr 113 000
-                            </li>
-                            <li>
-                                <strong>Omkostninger:</strong> kr 16 504
-                            </li>
-                            <li>
-                                <strong>Felleskostnader per månded:</strong> kr 2 630
-                            </li>
-                        </ul>
-                        <div class="apart-key-info apart-info-item">
-                            <h3>Nøkkelinformasjon</h3>
-                            <div class="key-info__table">
-                                <ul>
-                                    <li>Antall ledige boliger:</li>
-                                    <li>Boligtype:</li>
-                                    <li>Størrelse (P-rom):</li>
-                                    <li>Eieform:</li>
-                                    <li>Innflytning:</li>
-                                    <li>Totalpris fra:</li>
-                                </ul>
-                                <ul>
-                                    <li>35</li>
-                                    <li>Leilighet</li>
-                                    <li>35 - 95 m²</li>
-                                    <li>Sameie</li>
-                                    <li>Fra sommeren 2022</li>
-                                    <li>Kr 4 229 270</li>
-                                </ul>
-                            </div>
+                        <p class="price-apartment">Kr 2 034 975</p>
+                    </div>
+                    <ul class="apart-propert">
+                        <li>
+                            <strong>Prisantydning:</strong> kr 2 450 000
+                        </li>
+                        <li>
+                            <strong>Fellesgjeld:</strong> kr 113 000
+                        </li>
+                        <li>
+                            <strong>Omkostninger:</strong> kr 16 504
+                        </li>
+                        <li>
+                            <strong>Felleskostnader per månded:</strong> kr 2 630
+                        </li>
+                    </ul>
+                    <div class="apart-key-info apart-info-item">
+                        <h3>Nøkkelinformasjon</h3>
+                        <div class="key-info__table">
+                            <ul>
+                                <li>Antall ledige boliger:</li>
+                                <li>Boligtype:</li>
+                                <li>Størrelse (P-rom):</li>
+                                <li>Eieform:</li>
+                                <li>Innflytning:</li>
+                                <li>Totalpris fra:</li>
+                            </ul>
+                            <ul>
+                                <li>35</li>
+                                <li>Leilighet</li>
+                                <li>35 - 95 m²</li>
+                                <li>Sameie</li>
+                                <li>Fra sommeren 2022</li>
+                                <li>Kr 4 229 270</li>
+                            </ul>
                         </div>
-                        <div class="fasil-key-info apart-info-item">
-                            <h3>Fasiliteter</h3>
-                            <div class="fasil-div">
-                                <ul>
-                                    <li>Antall ledige boliger:</li>
-                                    <li>Boligtype:</li>
-                                    <li>Størrelse (P-rom):</li>
-                                    <li>Eieform:</li>
-                                    <li>Innflytning:</li>
-                                    <li>Totalpris fra:</li>
-                                </ul>
-                                <ul>
-                                    <li>35</li>
-                                    <li>Leilighet</li>
-                                    <li>35 - 95 m²</li>
-                                    <li>Sameie</li>
-                                    <li>Fra sommeren 2022</li>
-                                    <li>Kr 4 229 270</li>
-                                </ul>
-                            </div>
+                    </div>
+                    <div class="fasil-key-info apart-info-item">
+                        <h3>Fasiliteter</h3>
+                        <div class="fasil-div">
+                            <ul>
+                                <li>Antall ledige boliger:</li>
+                                <li>Boligtype:</li>
+                                <li>Størrelse (P-rom):</li>
+                                <li>Eieform:</li>
+                                <li>Innflytning:</li>
+                                <li>Totalpris fra:</li>
+                            </ul>
+                            <ul>
+                                <li>35</li>
+                                <li>Leilighet</li>
+                                <li>35 - 95 m²</li>
+                                <li>Sameie</li>
+                                <li>Fra sommeren 2022</li>
+                                <li>Kr 4 229 270</li>
+                            </ul>
                         </div>
+                    </div>
                 </div>
                 <div class="single__col-2">
                     <a href="#" class="advantages__item">
@@ -457,7 +479,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
+    <script src="./js//main.js"></script>
+
 </body>
 
 </html>
