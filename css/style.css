@@ -1506,6 +1506,11 @@ Single
     height: 99%;
 }
 
+.view.single__infos-item.apart-item-info.apart-item-avas {
+    margin-top: 32px;
+    padding: 32px 90px;
+}
+
 .single__infos-item p {
     font-size: 20px;
     line-height: 23px;
@@ -1640,4 +1645,380 @@ Single
 /* related */
 /* *********************
 Single
+*/
+
+
+/* *********************
+apartment
+*/
+
+.apart-hero {
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.apart-info h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+
+.apart-info h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+
+.apartment__btns .btn {
+    padding: 15px 35px;
+}
+
+.apartment__btns .btn.green-border-btn {
+    margin-left: 25px;
+    color: var(--green);
+}
+
+.apartment__btns {
+    margin-top: 25px;
+}
+
+.total-price-info h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+p.price-apartment {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 34px;
+}
+
+span.price-apart-info {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.total-price-info * {
+    font-weight: 400;
+}
+
+.sign-blue {
+    color: #002169;
+    background: #DEEFF5;
+    display: inline-block;
+    padding: 7px 9px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.info-div {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+ul.apart-propert {
+    margin-top: 20px;
+    list-style: none;
+    margin-bottom: 65px;
+}
+
+ul.apart-propert li {
+    margin-bottom: 10px;
+}
+
+.apart-key-info .key-info__table {
+    margin-top: 10px;
+}
+
+.apart-info-item h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.apart-key-info .key-info__table ul:first-child {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.apart-key-info .key-info__table ul {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.fasil-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.fasil-key-info.apart-info-item .fasil-div>ul {
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.kostnader p {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.kostnader p {
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.calc-col-1 {
+    background: #CDECE2;
+    border-radius: 15px 0px 0px 15px;
+    padding: 32px;
+}
+
+section.calc h2 {
+    text-align: center;
+}
+
+.calc__wrap {
+    border: 1px solid #8C8C8C;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    width: 1135px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.calc__wrap>div {
+    width: 50%;
+}
+
+.calc-col-2 {
+    padding: 32px;
+}
+
+.calc-item_wrap>strong {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.calc__input-wrap {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 222px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+}
+
+.calc__input-wrap input {
+    background: unset;
+    border: unset;
+    height: 100%;
+}
+
+.calc-steps span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 50px;
+    background: #fff;
+    color: #8C8C8C;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    border: 1px solid #8C8C8C;
+}
+
+.calc-steps span.active {
+    background: #00AA79;
+    color: #fff;
+}
+
+.calc-steps {
+    display: flex;
+    justify-content: flex-start;
+    width: 177px;
+}
+
+.calc__item {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.calc__wrap .btn {
+    padding: 15px 32px;
+    margin-top: 23px;
+}
+
+.calc-col-2 h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.calc-col-2 {
+    text-align: center;
+}
+
+.calc-col-2 p {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.calc-col-2_drop {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 8px;
+    border-bottom: 2px solid #00AA79;
+    padding-bottom: 7px;
+}
+
+.calc-col-2 h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.calc-col-2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.calc-col-2 p {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.calc-col-2_drop {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 8px;
+    border-bottom: 2px solid #00AA79;
+    padding-bottom: 7px;
+    position: relative;
+}
+
+.calc-col-2 .btn {
+    width: 322px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.arrow-calc-down {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+.oslos__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.oslos__item img {
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+section.oslos {
+    padding-top: 100px;
+    padding-bottom: 500px;
+}
+
+.oslos__item img:hover {
+    transform: translateY(-5px);
+}
+
+section.oslos .container {
+    max-width: 1280px;
+}
+
+.view.single__infos-item.apart-item-info .btn {
+    padding: 15px;
+    margin-top: 65px;
+}
+
+.single__col-2 a.advantages__item {
+    display: block;
+    width: 100%;
+    max-width: unset;
+    margin-bottom: 65px;
+}
+
+section.single-info.apart-info .advantages__item h3,
+section.single-info.apart-info .advantages__item p {
+    max-width: unset;
+}
+
+.view.single__infos-item.apart-item-info {
+    height: unset;
+    padding: 35px 120px;
+}
+
+.apart-avas__info .name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.apart-avas__info p {
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0;
+    text-align: unset;
+}
+
+.apart-avas__info a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    /* or 164% */
+    text-decoration-line: underline;
+    color: #0047BA;
+    display: block;
+}
+
+.view.single__infos-item.apart-item-info.apart-item-avas {
+    margin-top: 32px;
+}
+
+.apart-avas__item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.apart-avas__items {
+    margin-top: 20px;
+}
+
+/* *********************
+apartment
 */
